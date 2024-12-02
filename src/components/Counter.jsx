@@ -1,7 +1,7 @@
 // import { useReducer } from "react"
 import { useDispatch, useSelector } from "react-redux";
-// import CounterReducer from "../helper/reducers/CounterReducer";
-import { dec, inc } from "../helper/actions/counter.action";
+// import CounterReducer from "../services/reducers/CounterReducer";
+import { dec, inc } from "../services/actions/counter.action";
 
 const Counter = () => {
    

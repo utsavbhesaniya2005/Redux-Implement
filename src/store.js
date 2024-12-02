@@ -1,5 +1,5 @@
 import { createStore } from 'redux';
-import myApp from './helper/reducers/index';
+import myApp from './services/reducers/index';
 
 const store = createStore(myApp);
 
